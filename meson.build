@@ -44,8 +44,3 @@ pkgconfig.generate(
     pystring_lib,
     description: 'C++ functions matching the interface and behavior of python string methods with std::string',
 )
-cmake = import('cmake')
-cmake.write_basic_package_version_file(
-    name: 'pystring',
-    version: meson.project_version(),
-)
