@@ -5,7 +5,7 @@ project(
     license: 'BSD-3-Clause',
     license_files: 'LICENSE',
     meson_version: '>=1.3',
-    default_options: ['cpp_std=c++11', 'warning_level=3'],
+    default_options: ['cpp_std=c++17,c++11', 'warning_level=3'],
 )
 
 inc = include_directories('.')
