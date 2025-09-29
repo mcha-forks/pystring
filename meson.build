@@ -37,7 +37,7 @@ test(
     ),
 )
 
-install_headers(hdrs)
+install_headers(hdrs, subdir: 'pystring')
 
 pkgconfig = import('pkgconfig')
 pkgconfig.generate(
